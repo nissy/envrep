@@ -1,4 +1,4 @@
-package txtrep
+package envrep
 
 import (
 	"fmt"

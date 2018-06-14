@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/nissy/txtrep"
+	"github.com/nissy/envrep"
 	"golang.org/x/crypto/ssh/terminal"
 )
 
@@ -86,7 +86,7 @@ func run() error {
 		}
 	}
 
-	fmt.Print(txtrep.Replace(string(b)))
+	fmt.Print(envrep.Replace(string(b)))
 
 	return nil
 }

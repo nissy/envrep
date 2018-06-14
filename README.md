@@ -1,9 +1,9 @@
-# txtrep
-txtrep is uses marks to replace text.
+# envrep
+envrep is uses marks to replace text.
 
 ## Install
 ```
-$ go get -u github.com/nissy/txtrep/cmd/txtrep
+$ go get -u github.com/nissy/envrep/cmd/envrep
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ cat database.yaml
 database:
   password: <env:DB_PASSWORD>
 
-$ txtrep database.yaml
+$ envrep database.yaml
 database:
   password: aaaaaa
 ```
