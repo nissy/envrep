@@ -13,9 +13,9 @@ aaaaaa
 
 $ cat database.yaml
 database:
-  password: <env:DB_PASSWORD>
+  password: "{{envrep.DB_PASSWORD}}"
 
 $ envrep database.yaml
 database:
-  password: aaaaaa
+  password: "aaaaaa"
 ```
